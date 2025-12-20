@@ -1,0 +1,13 @@
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# SQLite database (optional, agar sensitive hai)
+inventory.db
+
+# VS Code workspace settings
+.vscode/
