@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, render_template, request, redirect, url_for, session
 import db
 
@@ -91,7 +91,7 @@ def edit(item_id):
 
 if __name__ == "__main__":
     db.init_db()
-=======
+
 from flask import Flask, render_template, request, redirect, url_for, session
 import db
 
@@ -184,5 +184,4 @@ def edit(item_id):
 
 if __name__ == "__main__":
     db.init_db()
->>>>>>> 9c2c21423c83381275b5d4042e9b9eac6d380330
     app.run(debug=True)
